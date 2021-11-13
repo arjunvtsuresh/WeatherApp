@@ -16,7 +16,7 @@ let APIkey=""
 let url = "https://api.openweathermap.org/data/2.5/weather?q="+cityname+","+statecode+","+countrycode+"&units=metric"+"&appid="+APIkey
 
 
-//https://api.openweathermap.org/data/2.5/weather?q=Bengaluru,29,91&units=metric&appid=cbeee001d25c252c35770d4527e6a516
+
 fetch(url,params={units:'metric'})
     .then(response => response.json())
     .then(datael = (data) => {
