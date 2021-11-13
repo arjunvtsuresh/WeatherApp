@@ -1,0 +1,85 @@
+*{
+ margin: 20px;
+ overflow-y: initial;
+}
+
+body{
+    background-color: rgb(218, 211, 211);
+}
+
+.temp{
+    text-align: center;
+    color: rgb(83, 211, 250);
+    border: solid 1px rgb(199, 197, 197);
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,39,131,1) 29%, rgba(0,212,255,1) 100%);
+    box-shadow: honeydew;
+    padding-bottom: 10px;
+
+}
+.temp:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 6px -6px rgb(43, 40, 40);
+    
+
+}
+
+.humidity{
+    border-radius: 20px;
+    text-align: center;
+    color:rgb(179, 79, 129);
+    border: solid 1px rgb(206, 195, 195);
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 12%, rgba(148,187,233,1) 100%);
+
+}
+.pres{
+    border-radius: 20px;
+    text-align: center;
+    color:rgb(79, 114, 179);
+    border: solid 1px rgb(206, 195, 195);
+    background: rgb(34,193,195);
+    background: linear-gradient(169deg, rgba(34,193,195,1) 5%, rgba(253,209,45,1) 100%);
+
+}
+.pres:hover{
+    transform: translatey(-15px);
+    transition:3s;
+    box-shadow: 0 8px 6px -6px rgb(43, 40, 40);
+
+}
+.humidity:hover{
+    transform: translatey(-15px);
+    transition:3s;
+    box-shadow: 0 8px 6px -6px rgb(43, 40, 40);
+}
+
+.header{
+    text-align: center;
+    padding-right: 25px;
+    padding-bottom: 20px;
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    
+}
+#btn-el{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background: linear-gradient(to right,rgb(2, 2, 104), rgb(2, 131, 173));
+    box-shadow: 4px 4px 8px 4px gray;
+    color: white;
+}
+
+#btn-el:hover{
+    transform:rotate(360deg);
+    transition: 3s;
+}
