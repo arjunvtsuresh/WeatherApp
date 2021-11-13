@@ -10,7 +10,8 @@ let refBtn = document.getElementById('btn-el')
 let cityname = "Bengaluru"
 let statecode="29"
 let countrycode="91"
-let APIkey="cbeee001d25c252c35770d4527e6a516"
+//Generate your API key from the author(openweather.org)
+let APIkey=""
 
 let url = "https://api.openweathermap.org/data/2.5/weather?q="+cityname+","+statecode+","+countrycode+"&units=metric"+"&appid="+APIkey
 
